@@ -7,6 +7,10 @@
     <version>1.0</version>
     <packaging>pom</packaging>
 
+    <name>ooknight ui</name>
+    <description>ooknight ui</description>
+    <url>https://github.com/ooknight/ooknight-ui</url>
+
     <modules>
         <module>bootstrap</module>
         <module>bootstrap3</module>
@@ -21,5 +25,53 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License (GPL) version 3.0</name>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>ooknight</name>
+            <email>ooknight@163.com</email>
+            <url>https://github.com/ooknight</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:ooknight/ooknight-ui.git</connection>
+        <url>https://github.com/ooknight/ooknight-ui</url>
+    </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
+                <executions>
+                    <execution>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
 
 </project>
