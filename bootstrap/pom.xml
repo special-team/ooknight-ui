@@ -9,38 +9,6 @@
     </parent>
 
     <artifactId>bootstrap</artifactId>
-    <version>3.3.7</version>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.github.ooknight.ui</groupId>
-            <artifactId>jquery</artifactId>
-            <version>2.2.4</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>3.0.1</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet.jsp</groupId>
-            <artifactId>javax.servlet.jsp-api</artifactId>
-            <version>2.2.1</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.taglibs</groupId>
-            <artifactId>taglibs-standard-impl</artifactId>
-            <version>1.2.3</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.taglibs</groupId>
-            <artifactId>taglibs-standard-spec</artifactId>
-            <version>1.2.3</version>
-            <optional>true</optional>
-        </dependency>
-    </dependencies>
+    <version>4.1.1.0</version>
 
 </project>

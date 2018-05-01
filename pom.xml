@@ -9,7 +9,11 @@
 
     <modules>
         <module>bootstrap</module>
+        <module>bootstrap3</module>
         <module>jquery</module>
+        <module>jquery2</module>
+        <module>semantic-ui</module>
+        <module>vuetify</module>
     </modules>
 
     <properties>

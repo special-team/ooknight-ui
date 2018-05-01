@@ -8,7 +8,7 @@
         <version>1.0</version>
     </parent>
 
-    <artifactId>jquery</artifactId>
-    <version>3.3.1.0</version>
+    <artifactId>vuetify</artifactId>
+    <version>1.0.17.0</version>
 
 </project>
