@@ -8,7 +8,7 @@
         <version>1.0.1</version>
     </parent>
 
-    <artifactId>jquery</artifactId>
-    <version>3.3.1.1</version>
+    <artifactId>mdui</artifactId>
+    <version>0.4.1.1</version>
 
 </project>

@@ -5,10 +5,10 @@
     <parent>
         <groupId>com.github.ooknight.ui</groupId>
         <artifactId>ooknight-ui</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </parent>
 
     <artifactId>bootstrap</artifactId>
-    <version>4.1.1.0</version>
+    <version>4.1.1.1</version>
 
 </project>
